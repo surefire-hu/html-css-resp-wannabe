@@ -134,8 +134,8 @@ img {
     }
 }
 
-@media screen and (max-width: 480px) {
     /* section lessons*/
+@media screen and (max-width: 480px) {
     .lessons .row {
         display: flex;
         flex-wrap: wrap;
@@ -143,6 +143,22 @@ img {
 
     .lessons .col {
         flex-shrink: 0;
+        width: 100%;
+        padding-bottom: 2.5rem;
+    }
+
+    /* section steps */
+    .steps,
+    .why-us {
+        margin-bottom: 0;
+        padding: 2.5rem 0;
+    }
+    .steps .row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .steps .col {
         width: 100%;
         padding-bottom: 2.5rem;
     }
